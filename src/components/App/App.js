@@ -1,11 +1,13 @@
-import React from "react";
-import logo from "../../images/logo.svg";
 import "./App.scss";
+import * as React from "react";
+import Logo from "../Logo";
 
 function App() {
   return (
     <div className="App">
-      <img src={logo} alt="logo" />
+      <header className="App-header">
+        <Logo />
+      </header>
       <h1>Chengqi's photography portfolio.</h1>
     </div>
   );

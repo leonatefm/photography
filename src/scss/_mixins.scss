@@ -4,25 +4,25 @@
 // ***   Layout   ***
 // ******************
 
-@mixin bp-large {
+@mixin bp-xlarge {
   @media only screen and (min-width: 1920px) {
     @content;
   }
 }
 
-@mixin bp-medium {
+@mixin bp-large {
   @media only screen and (min-width: 1200px) {
     @content;
   }
 }
 
-@mixin bp-small {
+@mixin bp-medium {
   @media only screen and (min-width: 768px) {
     @content;
   }
 }
 
-@mixin bp-ex-small {
+@mixin bp-small {
   @media only screen and (min-width: 480px) {
     @content;
   }

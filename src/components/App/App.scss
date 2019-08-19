@@ -1,5 +1,38 @@
 @charset "utf-8";
+@import "../../scss/variables";
+@import "../../scss//mixins";
 
 .App {
-  text-align: center;
+  padding: 0 $grid-small;
+}
+
+.App-header {
+  padding: $grid-small 0;
+}
+
+@include bp-small {
+  .App {
+    padding: 0 $grid-medium;
+  }
+  .App-header {
+    padding: $grid-medium 0;
+  }
+}
+
+@include bp-medium {
+  .App {
+    padding: 0 $grid-large;
+  }
+  .App-header {
+    padding: $grid-large 0;
+  }
+}
+
+@include bp-large {
+  .App {
+    padding: 0 $grid-xlarge;
+  }
+  .App-header {
+    padding: $grid-xlarge 0;
+  }
 }

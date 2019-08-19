@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import "../../scss/variables";
+@import "../../scss//mixins";
+
+.Logo {
+  display: flex;
+  align-items: center;
+}
+
+.Logo-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: $color-text-primary;
+}
+
+.Logo-name {
+  font-size: 1.25rem;
+  font-weight: 200;
+  letter-spacing: -1px;
+  margin-left: $grid-xsmall;
+}
+
+@include bp-small {
+  .Logo-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .Logo-name {
+    font-size: 1.5rem;
+  }
+}
+
+@include bp-large {
+  .Logo-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+  .Logo-name {
+    font-size: 2rem;
+    margin-left: $grid-small;
+  }
+}
