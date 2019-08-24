@@ -1,6 +1,6 @@
-import "./App.scss";
-import * as React from "react";
-import Logo from "../Logo";
+import './App.scss';
+import * as React from 'react';
+import Logo from '../Logo';
 
 function App() {
   return (
