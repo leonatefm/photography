@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import '../../scss/variables';
+@import '../../scss//mixins';
+
+.Gallery {
+  margin: -$grid-small/2;
+}
+
+.Gallery-sizer,
+.Gallery-item {
+  width: 50%;
+  @include bp-small {
+    width: 33.3%;
+  }
+  @include bp-large {
+    width: 25%;
+  }
+  @include bp-xlarge {
+    width: 20%;
+  }
+}

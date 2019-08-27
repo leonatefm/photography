@@ -1,5 +1,6 @@
 import './App.scss';
 import * as React from 'react';
+import Gallery from '../Gallery';
 import Logo from '../Logo';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <header className="App-header">
         <Logo />
       </header>
-      <h1>Chengqi's photography portfolio.</h1>
+      <Gallery />
     </div>
   );
 }
