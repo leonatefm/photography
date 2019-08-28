@@ -10,6 +10,10 @@ function App() {
         <Logo />
       </header>
       <Gallery />
+      <footer className="App-footer">
+        <p>Designed by Chengqi Zhu &copy; 2019</p>
+        <Logo size="small" withName={false} />
+      </footer>
     </div>
   );
 }

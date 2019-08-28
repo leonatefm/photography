@@ -8,35 +8,51 @@
 }
 
 .Logo-icon {
-  width: 2rem;
-  height: 2rem;
   fill: $color-text-primary;
 }
 
 .Logo-name {
-  font-size: 1.25rem;
   font-weight: 200;
   letter-spacing: -1px;
-  margin-left: $grid-xsmall;
 }
 
-@include bp-small {
+.Logo--large {
   .Logo-icon {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    @include bp-small {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    @include bp-large {
+      width: 3.75rem;
+      height: 3.75rem;
+    }
   }
   .Logo-name {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    margin-left: $grid-xsmall;
+    @include bp-small {
+      font-size: 1.5rem;
+    }
+    @include bp-large {
+      font-size: 2rem;
+      margin-left: $grid-small;
+    }
   }
 }
 
-@include bp-large {
+.Logo--small {
   .Logo-icon {
-    width: 3.75rem;
-    height: 3.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    @include bp-small {
+      width: 2rem;
+      height: 2rem;
+    }
   }
   .Logo-name {
-    font-size: 2rem;
-    margin-left: $grid-small;
+    font-size: 1rem;
+    margin-left: $grid-xsmall;
   }
 }
