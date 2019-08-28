@@ -4,6 +4,11 @@
 
 .App {
   padding: 0 $grid-small;
+  transition: filter 0.3s ease;
+}
+
+.modal-open .App {
+  filter: blur(3px);
 }
 
 .App-header {
