@@ -3,6 +3,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 class GalleryPreview extends React.PureComponent {
   static propTypes = {
@@ -23,16 +24,18 @@ class GalleryPreview extends React.PureComponent {
   componentDidMount() {
     document.getElementById('root').appendChild(this.el);
     document.body.classList.add('modal-open');
+    disableBodyScroll(this.el);
     setTimeout(() => {
       this.setState({
         isOpen: true
       });
-    }, 0);
+    }, 10);
   }
 
   componentWillUnmount() {
     document.getElementById('root').removeChild(this.el);
     document.body.classList.remove('modal-open');
+    enableBodyScroll(this.el);
   }
 
   render() {

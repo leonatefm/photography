@@ -11,6 +11,13 @@
   filter: blur(3px);
 }
 
+// Disble blur filter in firefox for performance reason
+@-moz-document url-prefix() {
+  .modal-open .App {
+    filter: blur(0px);
+  }
+}
+
 .App-header {
   padding: 2 * $grid-small 0;
 }
