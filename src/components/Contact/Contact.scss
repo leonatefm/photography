@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import '../../scss/variables';
+@import '../../scss//mixins';
+
+.Contact {
+  display: flex;
+}
+
+.Contact-link {
+  & > svg {
+    display: block;
+    width: 2rem;
+    fill: $color-text-secondary;
+    transition: fill 0.6s ease;
+    @include hover-supported {
+      fill: $color-text-primary;
+    }
+  }
+  & + & {
+    margin-left: $grid-xsmall;
+  }
+}

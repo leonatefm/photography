@@ -1,5 +1,6 @@
 import './App.scss';
 import * as React from 'react';
+import Contact from '../Contact';
 import Gallery from '../Gallery';
 import Logo from '../Logo';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Logo />
+        <Contact />
       </header>
       <Gallery />
       <footer className="App-footer">
