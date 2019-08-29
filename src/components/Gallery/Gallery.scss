@@ -4,6 +4,8 @@
 
 .Gallery {
   margin: -$grid-small/2;
+  // Setup minimum placeholder to push footer to the right position when loading images
+  min-height: 70vh;
 }
 
 .Gallery-sizer,

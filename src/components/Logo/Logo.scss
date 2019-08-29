@@ -18,11 +18,11 @@
 
 .Logo--large {
   .Logo-icon {
-    width: 2rem;
-    height: 2rem;
-    @include bp-small {
-      width: 2.5rem;
-      height: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    @include bp-medium {
+      width: 3rem;
+      height: 3rem;
     }
     @include bp-large {
       width: 3.75rem;
