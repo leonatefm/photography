@@ -1,15 +1,15 @@
 import './App.scss';
 import * as React from 'react';
-import Contact from '../Contact';
 import Gallery from '../Gallery';
 import Logo from '../Logo';
+import Nav from '../Nav';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Logo />
-        <Contact />
+        <Nav />
       </header>
       <Gallery />
       <footer className="App-footer">
