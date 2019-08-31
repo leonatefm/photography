@@ -23,8 +23,8 @@ export default {
     </svg>
   ),
   menu: (
-    <svg className="menu" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-      <path d="M64 384h384v-42.666H64V384zm0-106.666h384v-42.667H64v42.667zM64 128v42.665h384V128H64z" />
+    <svg className="menu" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+      <path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zM904 784H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zM904 472H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z" />
     </svg>
   )
 };

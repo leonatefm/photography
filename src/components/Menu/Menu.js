@@ -22,6 +22,7 @@ class Menu extends React.PureComponent {
 
   componentDidMount() {
     document.getElementById('root').appendChild(this.el);
+    document.body.classList.add('modal-open');
     disableBodyScroll(this.el);
     setTimeout(() => {
       this.setState({
@@ -32,6 +33,7 @@ class Menu extends React.PureComponent {
 
   componentWillUnmount() {
     document.getElementById('root').removeChild(this.el);
+    document.body.classList.remove('modal-open');
     enableBodyScroll(this.el);
   }
 
@@ -41,7 +43,7 @@ class Menu extends React.PureComponent {
     });
     setTimeout(() => {
       this.props.clickOff();
-    }, 500);
+    }, 300);
   };
 
   render() {
@@ -52,6 +54,7 @@ class Menu extends React.PureComponent {
       <div className={classNames('Menu', { open: isOpen }, className)}>
         <div className="Menu-backdrop" onClick={this.dismissMenu}></div>
         <div className="Menu-panel">
+          <h2>Contact me</h2>
           <Contact />
           <p>Designed by Chengqi Zhu &copy; 2019</p>
         </div>
