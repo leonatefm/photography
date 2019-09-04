@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 class GalleryFigure extends React.PureComponent {
   static propTypes = {
     className: PropTypes.string,
+    index: PropTypes.number.isRequired,
     title: PropTypes.string,
     url: PropTypes.string.isRequired
   };
@@ -31,13 +32,13 @@ class GalleryFigure extends React.PureComponent {
   };
 
   render() {
-    const { className, title, url } = this.props;
+    const { className, index, title, url } = this.props;
     const { previewMode } = this.state;
 
     return (
       <figure className={classNames('GalleryFigure', className)}>
         <img src={url} alt={title} onClick={this.handleClick} />
-        {previewMode && <GalleryPreview clickOff={this.dismissPreview} url={url} title={title} />}
+        {previewMode && <GalleryPreview clickOff={this.dismissPreview} index={index} url={url} title={title} />}
       </figure>
     );
   }

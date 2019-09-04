@@ -1,5 +1,6 @@
 import './Gallery.scss';
 import * as React from 'react';
+import { GalleryContext } from './GalleryContext';
 import GalleryFigure from '../GalleryFigure';
 import imagesLoaded from 'imagesloaded';
 import Masonry from 'masonry-layout';
@@ -56,15 +57,23 @@ class Gallery extends React.PureComponent {
   }
 
   render() {
-    const galleryContent = this.state.photos.map(photo => (
-      <GalleryFigure className="Gallery-item" key={photo.id} title={photo.title} url={`./photos/${photo.id}.jpg`} />
+    const galleryContent = this.state.photos.map((photo, index) => (
+      <GalleryFigure
+        className="Gallery-item"
+        index={index}
+        key={photo.id}
+        title={photo.title}
+        url={`./photos/${photo.id}.jpg`}
+      />
     ));
 
     return (
-      <div className="Gallery" id="Gallery">
-        <div className="Gallery-sizer"></div>
-        {galleryContent}
-      </div>
+      <GalleryContext.Provider value={this.state.photos}>
+        <div className="Gallery" id="Gallery">
+          <div className="Gallery-sizer"></div>
+          {galleryContent}
+        </div>
+      </GalleryContext.Provider>
     );
   }
 }
