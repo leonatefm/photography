@@ -3,9 +3,15 @@
 @import '../../scss//mixins';
 
 .Gallery {
-  margin: -$grid-small/2;
+  margin: -$gallery-gutter-small/2;
   // Setup minimum placeholder to push footer to the right position when loading images
   min-height: 70vh;
+  @include bp-medium {
+    margin: -$gallery-gutter-medium/2;
+  }
+  @include bp-large {
+    margin: -$gallery-gutter-large/2;
+  }
 }
 
 .Gallery-sizer,

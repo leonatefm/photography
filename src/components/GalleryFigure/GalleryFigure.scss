@@ -3,8 +3,14 @@
 @import '../../scss//mixins';
 
 .GalleryFigure {
-  padding: $grid-small/2;
+  padding: $gallery-gutter-small/2;
   overflow: hidden;
+  @include bp-medium {
+    padding: $gallery-gutter-medium/2;
+  }
+  @include bp-large {
+    padding: $gallery-gutter-large/2;
+  }
   & > img {
     width: 100%;
     display: block;
