@@ -1,6 +1,6 @@
 {
   "name": "photography",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Chengqi's personal photography portfolio",
   "private": false,
   "dependencies": {

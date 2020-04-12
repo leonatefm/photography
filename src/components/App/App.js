@@ -25,7 +25,7 @@ class App extends React.PureComponent {
         </header>
         <Gallery />
         <footer className="App-footer">
-          <p>Designed by Chengqi Zhu &copy; 2019</p>
+          <p>Designed by Chengqi Zhu &copy; 2020</p>
           <Logo size="small" withName={false} />
         </footer>
       </div>

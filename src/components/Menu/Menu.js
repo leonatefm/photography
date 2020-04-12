@@ -56,7 +56,7 @@ class Menu extends React.PureComponent {
         <div className="Menu-panel">
           <h2>Contact me</h2>
           <Contact />
-          <p>Designed by Chengqi Zhu &copy; 2019</p>
+          <p>Designed by Chengqi Zhu &copy; 2020</p>
         </div>
       </div>,
       this.el
