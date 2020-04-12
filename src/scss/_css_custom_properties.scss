@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+// *****************************
+// *** CSS Custom Properties ***
+// *****************************
+
+:root {
+  // light theme
+  --light-bg-primary-color: #ffffff;
+  --light-bg-backdrop-color: rgba(0, 0, 0, 0.38);
+  --light-text-primary-color: #121212;
+  --light-text-secondary-color: #5a5a5a;
+
+  // dark theme
+  --dark-bg-primary-color: #1c1c1e;
+  --dark-bg-backdrop-color: rgba(255, 255, 255, 0.1);
+  --dark-text-primary-color: rgba(255, 255, 255, 0.87);
+  --dark-text-secondary-color: rgba(255, 255, 255, 0.6);
+}
+
+:root {
+  --bg-primary-color: var(--light-bg-primary-color);
+  --bg-backdrop-color: var(--light-bg-backdrop-color);
+  --text-primary-color: var(--light-text-primary-color);
+  --text-secondary-color: var(--light-text-secondary-color);
+}
+
+:root .dark-theme {
+  --bg-primary-color: var(--dark-bg-primary-color);
+  --bg-backdrop-color: var(--dark-bg-backdrop-color);
+  --text-primary-color: var(--dark-text-primary-color);
+  --text-secondary-color: var(--dark-text-secondary-color);
+}

@@ -11,7 +11,7 @@
   z-index: 99;
   &.open {
     .Menu-backdrop {
-      opacity: 0.5;
+      opacity: 1;
     }
     .Menu-panel {
       top: 0;
@@ -26,9 +26,10 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: black;
+  background: $color-bg-backdrop;
   opacity: 0;
   transition: opacity 0.4s ease;
+  backdrop-filter: blur(3px);
 }
 
 .Menu-panel {
@@ -39,7 +40,7 @@
   right: 0;
   font-size: 0.75rem;
   color: $color-text-secondary;
-  background-color: white;
+  background-color: $color-bg-primary;
   border-radius: 0 0 50% 50%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
   display: flex;

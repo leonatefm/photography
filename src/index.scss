@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @import './scss/vendors';
+@import './scss/css_custom_properties';
 @import './scss/variables';
 
 // *********************
@@ -13,7 +14,6 @@ body {
     'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $color-text-primary;
 }
 
 code {

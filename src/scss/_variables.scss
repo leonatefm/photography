@@ -4,8 +4,10 @@
 // *** Color Variables ***
 // ***********************
 
-$color-text-primary: #121212;
-$color-text-secondary: #5a5a5a;
+$color-bg-primary: var(--bg-primary-color);
+$color-bg-backdrop: var(--bg-backdrop-color);
+$color-text-primary: var(--text-primary-color);
+$color-text-secondary: var(--text-secondary-color);
 
 // ************************
 // *** Layout Variables ***

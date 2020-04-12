@@ -5,17 +5,8 @@
 .App {
   padding: 0 $grid-small;
   transition: filter 0.3s ease;
-}
-
-.modal-open .App {
-  filter: blur(3px);
-}
-
-// Disble blur filter in firefox for performance reason
-@-moz-document url-prefix() {
-  .modal-open .App {
-    filter: blur(0px);
-  }
+  color: $color-text-primary;
+  background-color: $color-bg-primary;
 }
 
 .App-header {
@@ -31,6 +22,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 0.75rem;
+  color: $color-text-secondary;
   margin-top: 4rem;
   .Logo-icon {
     fill: $color-text-secondary;
