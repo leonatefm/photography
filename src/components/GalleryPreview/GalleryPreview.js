@@ -52,9 +52,9 @@ class GalleryPreview extends React.PureComponent {
   keyboardHandler = (event) => {
     if (event.key === 'Escape') {
       this.props.clickOff();
-    } else if (event.key === 'ArrowLeft') {
+    } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
       this.navigateGallery(this.state.index, 'PREVIOUS');
-    } else if (event.key === 'ArrowRight') {
+    } else if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
       this.navigateGallery(this.state.index, 'NEXT');
     } else {
       return false;
