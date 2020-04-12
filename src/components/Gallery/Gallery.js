@@ -30,8 +30,8 @@ class Gallery extends React.PureComponent {
       if (image.isLoaded) {
         if (window.IntersectionObserver) {
           let observer = new IntersectionObserver(
-            entries => {
-              entries.forEach(entry => {
+            (entries) => {
+              entries.forEach((entry) => {
                 if (entry.intersectionRatio > 0.3) {
                   image.img.className = 'visible';
                   observer.unobserve(image.img);

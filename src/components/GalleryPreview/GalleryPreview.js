@@ -49,7 +49,7 @@ class GalleryPreview extends React.PureComponent {
     document.removeEventListener('keydown', this.keyboardHandler);
   }
 
-  keyboardHandler = event => {
+  keyboardHandler = (event) => {
     if (event.key === 'Escape') {
       this.props.clickOff();
     } else if (event.key === 'ArrowLeft') {

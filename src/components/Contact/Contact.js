@@ -4,7 +4,7 @@ import icons from '../../lib/icons';
 import ReactGA from 'react-ga';
 
 class Contact extends React.PureComponent {
-  _handleContactClick = event => {
+  _handleContactClick = (event) => {
     const contactMethod = event.currentTarget.dataset.method;
     ReactGA.event({
       category: 'Contact',
