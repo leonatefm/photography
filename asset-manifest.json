@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/css/main.5c0add08.chunk.css",
-    "main.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/main.a0ce1f23.chunk.js",
-    "main.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/main.a0ce1f23.chunk.js.map",
+    "main.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/main.c68a6e96.chunk.js",
+    "main.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/main.c68a6e96.chunk.js.map",
     "runtime-main.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/runtime-main.d12d5cdf.js",
     "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/runtime-main.d12d5cdf.js.map",
     "static/css/2.70c372c2.chunk.css": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/css/2.70c372c2.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.70c372c2.chunk.css",
     "static/js/2.89479386.chunk.js",
     "static/css/main.5c0add08.chunk.css",
-    "static/js/main.a0ce1f23.chunk.js"
+    "static/js/main.c68a6e96.chunk.js"
   ]
 }
