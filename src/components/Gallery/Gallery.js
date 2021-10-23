@@ -63,7 +63,7 @@ class Gallery extends React.PureComponent {
         index={index}
         key={photo.id}
         title={photo.title}
-        url={`./photos/${photo.id}.jpg`}
+        url={`${process.env.PUBLIC_URL}/photos/${photo.id}.jpg`}
       />
     ));
 
