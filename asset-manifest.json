@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/css/main.5c0add08.chunk.css",
-    "main.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/main.c68a6e96.chunk.js",
-    "main.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/main.c68a6e96.chunk.js.map",
-    "runtime-main.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/runtime-main.d12d5cdf.js",
-    "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/runtime-main.d12d5cdf.js.map",
+    "main.css": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/css/main.c8bda795.chunk.css",
+    "main.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/main.29ef116f.chunk.js",
+    "main.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/main.29ef116f.chunk.js.map",
+    "runtime-main.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/runtime-main.042635a3.js",
+    "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/runtime-main.042635a3.js.map",
     "static/css/2.70c372c2.chunk.css": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/css/2.70c372c2.chunk.css",
-    "static/js/2.89479386.chunk.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/2.89479386.chunk.js",
-    "static/js/2.89479386.chunk.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/2.89479386.chunk.js.map",
+    "static/js/2.0f4edaf7.chunk.js": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/2.0f4edaf7.chunk.js",
+    "static/js/2.0f4edaf7.chunk.js.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/2.0f4edaf7.chunk.js.map",
     "index.html": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/index.html",
     "static/css/2.70c372c2.chunk.css.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/css/2.70c372c2.chunk.css.map",
-    "static/css/main.5c0add08.chunk.css.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/css/main.5c0add08.chunk.css.map",
-    "static/js/2.89479386.chunk.js.LICENSE.txt": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/2.89479386.chunk.js.LICENSE.txt"
+    "static/css/main.c8bda795.chunk.css.map": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/css/main.c8bda795.chunk.css.map",
+    "static/js/2.0f4edaf7.chunk.js.LICENSE.txt": "https://cdn.jsdelivr.net/gh/leonatefm/photography@gh-pages/static/js/2.0f4edaf7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d12d5cdf.js",
+    "static/js/runtime-main.042635a3.js",
     "static/css/2.70c372c2.chunk.css",
-    "static/js/2.89479386.chunk.js",
-    "static/css/main.5c0add08.chunk.css",
-    "static/js/main.c68a6e96.chunk.js"
+    "static/js/2.0f4edaf7.chunk.js",
+    "static/css/main.c8bda795.chunk.css",
+    "static/js/main.29ef116f.chunk.js"
   ]
 }
